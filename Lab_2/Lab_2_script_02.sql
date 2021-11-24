@@ -1,0 +1,2 @@
+SELECT * 
+FROM trip WHERE CONVERT(time_in, time) BETWEEN CONVERT('17:00:00', time) AND CONVERT('23:00:00', time);
