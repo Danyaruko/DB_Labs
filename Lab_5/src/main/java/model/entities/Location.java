@@ -44,6 +44,7 @@ public class Location {
     public String toString() {
         return ":Location {"
                 + "id =" + id + ", "
+                + "country =" + country + ","
                 + "city =" + city + ", "
                 + "street = " + street
                 + "};" + "\n";
